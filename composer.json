@@ -1,5 +1,5 @@
 {
-    "name": "lucas/ecommerce",
+    "name": "lucas/shopx",
     "description": "E-commerce desenvolvido em PHP puro utilizando arquitetura MVC",
     "type": "project",
     "require": {

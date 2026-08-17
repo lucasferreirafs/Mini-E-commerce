@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url("./header.css");
+
+:root {
+    --background: #f9f9f8;
+    --bg-primary: #1a56db;
+    --bg-secondary: #1a56db;
+
+    --foreground: #111111;
+    --border-color: #e4e4e2;
+    --input-color: #f2f2f0;
+    --muted: #ebebea;
+    --muted-foreground: #888884;
+    --accent: #f05a28;
+    --star: #f5a623;
+
+    --font: "Inter", sans-serif;
+
+    --rounded-sm: 4px;
+    --rounded-md: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--background);
+}
+
+.background {
+    background-color: var(--background);
+}
+
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-foreground {
+    background-color: var(--foreground);
+}
+
+.text-foreground {
+    color: var(--foreground);
+}
+
+.border-color {
+    border-color: var(--border-color);
+}
+
+.bg-input {
+    background-color: var(--input-color);
+}
+
+.bg-muted {
+    background-color: var(--muted);
+}
+
+.text-muted {
+    color: var(--muted);
+}
+
+.bg-muted-foreground {
+    background-color: var(--muted-foreground);
+}
+
+.text-muted-foreground {
+    color: var(--muted-foreground);
+}
+
+.bg-accent {
+    background-color: var(--accent);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.star {
+    background-color: var(--star);
+}
+
+.rounded-sm {
+    border-radius: var(--rounded-sm);
+}
+
+.rounded-md {
+    border-radius: var(--rounded-md);
+}
