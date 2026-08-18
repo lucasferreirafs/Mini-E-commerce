@@ -1,0 +1,7 @@
+footer {
+    height: 320px;
+    justify-self: end;
+    grid-row: 3/4;
+    grid-column: 4/1;
+    width: 100%;
+}

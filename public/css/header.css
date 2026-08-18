@@ -2,6 +2,8 @@
 header {
     border-bottom: 1px solid var(--muted);
     width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/4;
 }
 
 .container-header {
@@ -10,7 +12,7 @@ header {
     justify-content: space-between;
     margin-inline: auto;
     padding: 15px 20px;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 /* LOGO */
@@ -25,10 +27,12 @@ header {
     padding: 10px 15px;
     border-radius: var(--rounded-md);
 }
+
 .text-logo-icon  {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
 .text-logo {
     font-weight: bold;
     font-size: 1.3rem;
@@ -62,8 +66,7 @@ header {
 }
 
 .nav-link {
-    text-decoration: none;
-    font-size: 1.33rem;
+    font-size: 1.3rem;
     transition: color .2s ease-in-out;
 }
 

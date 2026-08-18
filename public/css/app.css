@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url("./header.css");
+@import url("./footer.css");
 
 :root {
     --background: #f9f9f8;
@@ -28,8 +29,25 @@
     font-family: var(--font);
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--background);
+}
+
+.container-layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px auto 320px;
+}
+
+main {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/4;
 }
 
 .background {

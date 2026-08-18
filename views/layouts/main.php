@@ -17,7 +17,7 @@ use App\Core\View;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/app.css">
 
@@ -25,15 +25,15 @@ use App\Core\View;
 </head>
 
 <body>
+    <div class="container-layout">
+        <?php View::component("header"); ?>
 
-    <?php View::component("header"); ?>
+        <main>
+            <?= $content ?>
+        </main>
 
-    <main>
-        <?= $content ?>
-    </main>
-
-    <?php View::component("footer"); ?>
-
+        <?php View::component("footer"); ?>
+    </div>
 </body>
 
 </html>

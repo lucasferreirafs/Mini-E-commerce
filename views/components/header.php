@@ -2,12 +2,12 @@
 
     <div class="container-header">
         <!-- LOGO -->
-        <div class="container-logo">
+        <a href="/" class="container-logo">
             <div class="logo bg-primary">
                 <span class="text-logo-icon text-white">S</span>
             </div>
             <span class="text-logo text-foreground">ShopX</span>
-        </div>
+        </a>
 
         <!-- SEARCH PRODUCT -->
         <div class="container-search bg-input rounded-md">
