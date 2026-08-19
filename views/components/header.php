@@ -1,12 +1,15 @@
+<?php
+    use App\Core\View;
+?>
+
 <header class="bg-white">
 
     <div class="container-header">
         <!-- LOGO -->
         <a href="/" class="container-logo">
-            <div class="logo bg-primary">
-                <span class="text-logo-icon text-white">S</span>
-            </div>
-            <span class="text-logo text-foreground">ShopX</span>
+            <?php View::component('logo', [
+                "class" => "text-foreground"
+            ]) ?>
         </a>
 
         <!-- SEARCH PRODUCT -->
