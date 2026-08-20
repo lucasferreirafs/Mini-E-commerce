@@ -15,6 +15,8 @@
     --muted-foreground: #888884;
     --accent: #f05a28;
     --star: #f5a623;
+    --white: #ffffff;
+
 
     --font: "Inter", sans-serif;
 
@@ -31,6 +33,10 @@
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 body {
