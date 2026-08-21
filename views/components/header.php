@@ -6,10 +6,8 @@
 
     <div class="container-header">
         <!-- LOGO -->
-        <a href="/" class="container-logo">
-            <?php View::component('logo', [
-                "class" => "text-foreground"
-            ]) ?>
+        <a href="/">
+            <?php View::component('logo') ?>
         </a>
 
         <!-- SEARCH PRODUCT -->

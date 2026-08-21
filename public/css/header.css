@@ -22,32 +22,6 @@ header {
 }
 
 /* ==============================
-   LOGO
-================================ */
-
-.container-logo {
-    display: flex;
-    align-items: center;
-    grid-column: 1/2;
-    gap: 6px;
-}
-
-.logo {
-    padding: 10px 15px;
-    border-radius: var(--rounded-md);
-}
-
-.text-logo-icon  {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.text-logo {
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-
-/* ==============================
    SEARCH
 ================================ */
 
