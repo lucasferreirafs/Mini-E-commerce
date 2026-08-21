@@ -1,0 +1,117 @@
+/* ==============================
+   OFERTAS
+================================ */
+#home {
+    margin-bottom: 30px;
+}
+
+section#offers {
+    background-image: url("../assets/image/bg-main.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.content-offers  {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.badge-offers {
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.badge-offers span {
+    text-transform: uppercase;
+}
+
+.container-content h1 {
+    font-size: 48px;
+}
+
+.container-content p {
+    font-size: 20px;
+}
+
+.container-content a {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: #be431a;
+    }
+}
+
+/* ==============================
+   FILTROS
+================================ */
+
+#container-main {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.filter-links {
+    padding: 30px 0 25px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.filter-links a {
+    background-color: var(--white);
+    color: var(--foreground);
+    padding: 4px 15px;
+    border-radius: 25px;
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+}
+
+.filter-links a.active {
+    background-color: var(--bg-primary);
+    color: var(--white);
+    border: none;
+}
+
+/* ==============================
+   CONTEÚDO PRINCIPAL - HEADER
+================================ */
+.header-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-products a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 12px;
+}
+
+/* ==============================
+   CONTEÚDO PRINCIPAL - CARDS
+================================ */
+
+.container-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

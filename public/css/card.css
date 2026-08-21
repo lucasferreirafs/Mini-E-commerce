@@ -1,0 +1,108 @@
+
+
+.card {
+    background-color: var(--white);
+    border: 2px solid var(--border-color);
+    width: 285px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.01);
+        border: 2px solid var(--accent);
+    }
+}
+
+/* ==============================
+    IMAGEM DO CARD
+================================ */
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+/* ==============================
+    CONTEÚDO DO CARD
+================================ */
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+/* ==============================
+   TITULO DO CARD
+================================ */
+.card-title {
+    font-weight: 500;
+    color: var(--foreground);
+}
+
+/* ==============================
+   ESTRELAS DE AVALIAÇÃO
+================================ */
+
+.card-stars i {
+   font-size: 12px;
+   color: var(--muted);
+}
+
+.card-stars i:nth-child(1) {
+    color: var(--star);
+}
+.card-stars i:nth-child(2) {
+    color: var(--star);
+}
+.card-stars i:nth-child(3) {
+    color: var(--star);
+}
+
+.stars-count {
+    color: var(--muted-foreground);
+    font-size: 12px;
+}
+
+/* ==============================
+   PREÇO CARD
+================================ */
+
+.card-price {
+    margin-top: 5px;
+} 
+
+.price {
+    font-weight: bold;
+}
+
+.discount {
+    color: var(--muted-foreground);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+/* ==============================
+   BOTÃO CARD
+================================ */
+
+.btn-card {
+    background-color: var(--bg-primary);
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: var(--bg-secondary);
+    }
+}
